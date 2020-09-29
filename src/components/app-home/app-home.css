@@ -1,0 +1,24 @@
+:host {
+  display: block;
+}
+
+img {
+  float: right;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 140px;
+  letter-spacing: 0.18rem;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+}
+.header-ios ion-toolbar:last-of-type {
+  --border-width: 0px !important;
+}
+.col {
+  width: 33%;
+  float: left;
+}

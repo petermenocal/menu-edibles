@@ -1,0 +1,68 @@
+:host {
+  display: block;
+}
+
+.price {
+  padding: 5px 0 5px 0;
+  margin-bottom: 20px;
+}
+
+.strain {
+  height: 100%;
+  width: 100%;
+  max-height: 40px !important;
+  display: flex;
+  overflow: hidden;
+  padding-left: 15px;
+  padding: 0px;
+  height: 28px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.even {
+  background: #000000 !important;
+}
+.odd {
+  background: #131313 !important;
+}
+.prices {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.price-label {
+  margin-left: 20px;
+}
+.weight-label {
+  margin-left: 5px;
+  color: white !important;
+  font-weight: bold;
+}
+.name-and-brand {
+  display: flex;
+  flex-direction: row;
+  width: 470px;
+}
+.brand {
+  color: #c0a973 !important;
+  margin-left: 35px;
+  width: 180px !important;
+}
+.name {
+  font-weight: bolder;
+  width: 200px !important;
+  color: white !important;
+}
+.type {
+  color: white !important;
+}
+ion-chip {
+  font-size: 0.7rem !important;
+  width: 90px;
+  background: rgba(0, 128, 0, 0.288);
+}
+.list {
+  max-width: 720px;
+}
