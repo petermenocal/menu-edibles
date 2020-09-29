@@ -8,7 +8,8 @@
     "electron:start": "npm run build && electron ./",
     "electron:pack": "npm run build && electron-builder build --dir",
     "electron:build-windows": "npm run build && electron-builder build --windows",
-    "electron:build-mac": "npm run build && electron-builder build --mac"
+    "electron:build-mac": "npm run build && electron-builder build --mac",
+    "electron:build-linux": "npm run build && electron-builder build --linux"
   },
   "dependencies": {
     "@capacitor-community/electron-core": "^1.0.0"
@@ -25,8 +26,8 @@
   "author": "",
   "license": "MIT",
   "build": {
-    "appId": "com.example.capacitor-app",
-    "productName": "Capacitor App",
+    "appId": "com.exhalebrands.menu-edibles",
+    "productName": "Edibles Menu",
     "files": [
       "assets/*",
       "build/index.js",
